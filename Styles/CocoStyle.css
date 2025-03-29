@@ -1,0 +1,170 @@
+html {
+    background-color: #000000;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: auto;
+    font-size: 16;
+}
+
+body {
+   max-width: 100%;
+   max-height: 100%;
+   overflow: auto;
+   flex-wrap: wrap;
+   position: relative;
+}
+
+.HeaderBar {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavigationBar {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+}
+
+.NavLinks {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+    transition: color 0.3s ease;
+    flex: 1;
+}
+
+.TextStyle {
+    font-family: "Inria Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.3rem;
+    text-align: right;
+    text-decoration: none;
+    line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.TextStyle:hover {
+    color: #874710;
+}
+
+button, .Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 3.5rem;
+  height: auto;
+  transition: background-color 0.9s ease;
+  background-color: transparent;
+
+}
+
+button:hover {
+  background-color: #874710;
+}
+
+button img {
+  transition: transform 0.9s ease, filter 0.9s ease;
+}
+
+button:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.1);
+}
+
+main {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.CocoImage {
+    width: auto;
+    max-width: 33.5rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: auto;
+    margin-top: 2rem;
+    position: relative;
+    flex: 1;
+}
+
+.biography {
+  	margin: 0;
+  	font-size: 2rem;
+}
+
+.blank-line {
+  	margin: 0.625rem;
+}
+
+.biography-coco-gauff-container {
+  	width: clamp(50%, 75rem, 100%);
+  	position: relative;
+  	color: #fff;
+  	text-align: center;
+  	display: flex;
+  	height: auto;
+  	font-size: 1.5rem;
+  	font-family: 'Inria Sans';
+  	margin: 2.2rem;
+  	max-width: 100%;
+  	max-height: 100%
+  	flex: 1;
+  	flex-direction: column;
+}
+
+.FooterBar {
+    width: auto;
+    height: 3.75rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 5rem;
+}
+
+.Telephone {
+   color: #fa7b007d;
+   text-decoration: none;
+}
+
+.CopyRight {
+   color: #fa7b007d;
+}
+
+.DirectionsLink {
+   color: #fa7b007d;
+   text-decoration: none;
+   margin-left: 10rem;
+}
+
+
+
+

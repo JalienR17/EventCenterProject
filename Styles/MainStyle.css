@@ -1,0 +1,428 @@
+html {
+    background-color: #000000;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-columns: 1fr;
+    overflow: auto;
+    font-size: 16;
+}
+
+body {
+   max-width: 100%;
+   max-height: 100%;
+}
+
+.HeaderBar {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.NavigationBar {
+    width: 100%;
+    height: 3.75rem;
+    background-color: #d9d9d9;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.NavLinks {
+    width: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding-right: 2rem;
+    transition: color 0.3s ease;
+}
+
+.TextStyle {
+    font-family: "Inria Sans-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 1.3rem;
+    text-align: right;
+    text-decoration: none;
+    line-height: normal;
+    transition: color 0.3s ease;
+}
+
+.TextStyle:hover {
+    color: #874710;
+}
+
+button, .Menu {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  cursor: pointer;
+  width: 3.5rem;
+  height: auto;
+  transition: background-color 0.9s ease;
+  background-color: transparent;
+
+}
+
+button:hover {
+  background-color: #874710;
+}
+
+button img {
+  transition: transform 0.9s ease, filter 0.9s ease;
+}
+
+button:hover img {
+  transform: scale(1.1);
+  filter: brightness(0.1);
+}
+
+.BannerLogo {
+  position: relative;
+  width: 100%;
+  display: flex;
+  flex: 1;
+}
+
+.BannerLogo .Banner {
+  flex: 1;
+  width: 100%;
+  overflow: hidden;
+  display: flex;
+}
+
+.BannerLogo .Logo {
+  position: absolute;
+  top: 1.3rem;
+  left: 1.3rem;
+  width: 6rem;
+  height: auto;
+  z-index: 2;
+  border-radius: 25px;
+  flex: 1;
+  overflow: hidden;
+  display: flex;
+  max-width: 100%;
+}
+
+
+.PlayersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: Flex-Start;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  flex: 1;
+}
+
+.NovakContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .Novak {
+     width: 13rem;
+     max-width: 100%;
+     height: auto;
+  }
+
+  .NovakText {
+    width: 14.5rem;
+    position: relative;
+    font-size: 1.125rem;
+    font-family: 'Inria Sans';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 8.86875rem;
+  }
+
+  .NovakButton:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+}
+
+.PlayersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: Flex-Start;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  flex: 1;
+}
+
+.CarlosContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .Carlos {
+     width: 13rem;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 2.2rem;
+  }
+
+  .CarlosText {
+    width: 14.5rem;
+    position: relative;
+    font-size: 1.125rem;
+    font-family: 'Inria Sans';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 8.86875rem;
+  }
+
+  .CarlosButton:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+}
+
+.PlayersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: Flex-Start;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  flex: 1;
+}
+
+.TaylorContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .Taylor {
+     width: 10.5rem;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 1.5rem;
+  }
+
+  .TaylorText {
+    width: 14.5rem;
+    position: relative;
+    font-size: 1.125rem;
+    font-family: 'Inria Sans';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 8.86875rem;
+  }
+
+  .TaylorButton:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+}
+
+.PlayersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: Flex-Start;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  flex: 1;
+}
+
+.CocoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .Coco {
+     width: 13rem;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 1rem;
+  }
+
+  .CocoText {
+    width: 14.5rem;
+    position: relative;
+    font-size: 1.125rem;
+    font-family: 'Inria Sans';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 8.86875rem;
+  }
+
+  .CocoButton:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+}
+
+.PlayersContent {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: Flex-Start;
+  width: 100%;
+  overflow: hidden;
+  margin-bottom: 1.3rem;
+  margin-top: 1.3rem;
+  flex: 1;
+}
+
+.IgaContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex: 1;
+  }
+
+  .Iga {
+     width: 12rem;
+     max-width: 100%;
+     height: auto;
+     margin-bottom: 1.5rem;
+  }
+
+  .IgaText {
+    width: 14.5rem;
+    position: relative;
+    font-size: 1.125rem;
+    font-family: 'Inria Sans';
+    color: #fff;
+    text-align: center;
+    display: inline-block;
+    height: 8.86875rem;
+  }
+
+  .IgaButton:hover {
+    transform: scale(1.1);
+    filter: brightness(1.2);
+    cursor: pointer;
+    transition: transform 0.5s ease, filter 0.5s ease;
+  }
+}
+
+table {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  width: auto;
+}
+
+.rankings-table {
+  width: 80%;
+  margin: 2rem auto;
+  border-collapse: collapse;
+  color: #fff;
+}
+
+.rankings-table thead {
+  background-color: #333;
+  color: #fff;
+}
+
+.rankings-table th,
+.rankings-table td {
+  padding: 0.75rem 1rem;
+  text-align: center;
+}
+
+.rankings-table th {
+  font-weight: bold;
+}
+
+.rankings-table tbody tr {
+  cursor: pointer;
+}
+
+.rankings-table tbody tr:hover {
+  background-color: rgba(250, 123, 0, 0.4);
+}
+
+.FooterBar {
+    width: auto;
+    height: 3.75rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    margin-top: 5rem;
+  }
+
+  .Telephone {
+      color: #fa7b007d;
+      text-decoration: none;
+  }
+
+  .CopyRight {
+      color: #fa7b007d;
+  }
+
+  .DirectionsLink {
+      color: #fa7b007d;
+      text-decoration: none;
+      margin-left: 10rem;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
