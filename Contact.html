@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="Styles/ContactStyle.css" />
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0,
@@ -9,8 +10,8 @@
   <title>Contact Us</title>
 </head>
 <body>
-  <form class="Contact" action="#" method="POST">
-    <fieldset>
+  <form class="container-fluid vh-100 vw-100" action="#" method="POST">
+    <fieldset class="container-fluid">
       <legend>Contact Us</legend>
       <label for="name">Name:</label>
       <input type="text" id="name" name="name" required placeholder="Enter your name">
@@ -21,7 +22,7 @@
       <label for="message">Message:</label>
       <textarea id="message" name="message" rows="10" cols="50" required placeholder="Write your message"></textarea>
       <br><br>
-      <input type="submit" value="Send">
+      <input type="submit" value="Send" class="btn btn-success w-100">
     </fieldset >
   </form>
 </body>

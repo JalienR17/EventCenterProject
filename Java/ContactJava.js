@@ -26,7 +26,7 @@ iframeContact.style.right = '25%';
 iframeContact.style.bottom = '25%';
 iframeContact.style.left = '25%';
 iframeContact.style.width = '45%';
-iframeContact.style.height = '57%';
+iframeContact.style.height = '55%';
 iframeContact.style.overflow = 'auto';
 
 openOverlayContact.addEventListener('click', (event) => {
