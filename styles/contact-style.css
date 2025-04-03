@@ -1,0 +1,42 @@
+html {
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    overflow: auto;
+    font-size: 16;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    overflow: auto;
+    flex: 1;
+    font-family: 'Inria Sans';
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    position: relative;
+    background: rgba(0, 0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+    color: #ffffff;
+    flex: 1;
+    font-family: 'Inria Sans';
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    color: #ffffff;
+    flex: 1;
+}
+
+fieldset {
+    width: 31.25rem;
+    height: 18.75rem;
+}

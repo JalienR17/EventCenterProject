@@ -1,0 +1,134 @@
+@media (min-width: 320px) and (max-width: 600px) {
+  .navigation-bar {
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .directions-link {
+    margin-left: 0 !important;
+  }
+
+  .nav-links {
+    gap: 0.5rem !important;
+    padding-right: 0.5rem !important;
+  }
+
+  .text-style {
+    font-size: clamp(0.65rem, 3.8vw, 1.3rem) !important;
+    font-weight: 600 !important;
+  }
+
+  .players-content {
+    flex-direction: column;
+    gap: 0rem;
+  }
+
+  .footer-bar {
+    flex-direction: column;
+    padding: 1rem;
+  }
+
+  table {
+    font-size: 0.8rem;
+  }
+
+  button {
+    width: 80%;
+  }
+
+  body {
+    overflow: auto;
+  }
+
+  video {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .carlos-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .coco-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .taylor-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .iga-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .novak-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .logo {
+    width: 15% !important;
+    height: auto !important;
+    border-radius: 25% !important;
+    top: 0.65rem !important;
+    left: 0.65rem !important;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1200px) {
+  body {
+    overflow: auto;
+    max-width: 100%;
+    height: auto;
+  }
+
+  .players-content {
+    flex-wrap: wrap;
+    gap: 0rem !important;
+  }
+
+  .directions-link {
+    margin-left: 0rem !important;
+    flex-wrap: wrap;
+  }
+
+  .footer-bar {
+    flex-direction: column;
+    padding: 1rem;
+    margin-top: 15rem !important;
+  }
+
+  video {
+    max-width: 90%;
+    height: auto;
+  }
+
+  .carlos-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .coco-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .taylor-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .iga-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+
+  .novak-image {
+    width: 90% !important;
+    height: 90% !important;
+  }
+}

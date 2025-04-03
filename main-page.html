@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="styles/main-style.css" />
+    <link rel="stylesheet" href="styles/media-queries.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Miami Open</title>
+</head>
+<body>
+   <header>
+       <div class="header-bar"></div>
+       <div class="navigation-bar">
+           <nav class="nav-links">
+               <a class="text-style" href="main-page.html" rel="noopener noreferrer">Home</a>
+               <a class="text-style" href="about-bio.html" rel="noopener noreferrer">About</a>
+               <a class="text-style" href="https://www.miamiopen.com/tickets/" target="_blank" rel="noopener noreferrer">Tickets</a>
+               <a class="text-style" href="https://www.miamiopen.com/tournament/schedule/" target="_blank" rel="noopener noreferrer">Schedule</a>
+               <div id="openOverlayContact" class="contact-link">
+                  <a class="text-style" href="contact.html" rel="noopener noreferrer">Contact</a>
+               </div>
+               <div id="overlayContact">
+                   <div id="overlayContactContent">
+                   <button id="closeOverlayContact"></button>
+                       <iframe id="iframeContact" src="contact.html" frameborder="0"></iframe>
+                   </div>
+               </div>
+               <div id="openOverlay" class="menu-button">
+               <button type="button" aria-label="menu">
+                  <img class="menu" src="images/menu.png" alt="menu-icon" />
+               </button>
+               </div>
+               <div id="overlay">
+                  <div id="overlayContent">
+                  <button id="closeOverlay"></button>
+                      <iframe id="iframe" src="menu.html" frameborder="0"></iframe>
+                  </div>
+               </div>
+           </nav>
+       </div>
+       <div class="banner-logo">
+           <img class="banner" alt="logo" src="images/banner.png">
+           <img class="logo" alt="banner" src="images/logo.jpg">
+       </div>
+   </header>
+   <main>
+       <section class="players-content">
+         <section class="novak-content">
+           <img class="novak" alt="novak-image" src="images/novak.png">
+           <a href="novak-bio.html"><img class="novak-button" src="images/novak-button.png" alt="novak-button" /></a>
+           <p class="novak-text">Novak Djokovic, born on May 22, 1987, in Belgrade, Serbia</p>
+         </section>
+         <section class="carlos-content">
+           <img class="carlos" alt="carlos-image" src="images/carlos.png">
+           <a href="carlos-bio.html"><img class="carlos-button" src="images/carlos-button.png" alt="carlos-button" /></a>
+           <p class="carlos-text">Carlos Alcaraz, born on May 5, 2003, in El Palmar, Murcia, Spain</p>
+         </section>
+         <section class="taylor-content">
+           <img class="taylor" alt="taylor-image" src="images/taylor.png">
+           <a href="taylor-bio.html"><img class="taylor-button" src="images/taylor-button.png" alt="taylor-button" /></a>
+           <p class="taylor-text">Taylor Fritz, born on October 28, 1997, in San Diego, California</p>
+         </section>
+         <section class="coco-content">
+           <img class="coco" alt="" src="images/coco.png">
+           <a href="coco-bio.html"><img class="coco-button" src="images/coco-button.png" alt="coco-button" /></a>
+           <p class="coco-text">Coco Gauff, born on March 13, 2004, in Atlanta, Georgia</p>
+         </section>
+         <section class="iga-content">
+           <img class="iga" alt="" src="images/iga.png">
+           <a href="iga-bio.html"><img class="iga-button" src="images/iga-button.png" alt="iga-button" /></a>
+           <p class="iga-text">Iga Świątek, born on May 31, 2001, in Warsaw, Poland</p>
+         </section>
+       </section>
+       <table class="rankings-table">
+         <thead>
+           <tr style="border-bottom: 2px solid white">
+            <th>Rank</th>
+            <th>Name</th>
+            <th>Age</th>
+            <th>Points</th>
+            <th>Tournaments</th>
+           </tr>
+         </thead>
+         <tbody>
+           <tr style="border-bottom: 2px solid white" data-href="iga-bio.html">
+            <td>2</td>
+            <td>Iga Swiatek</td>
+            <td>23</td>
+            <td>7,375</td>
+            <td>17</td>
+           </tr>
+           <tr style="border-bottom: 2px solid white" data-href="carlos-bio.html">
+            <td>3</td>
+            <td>Carlos Alcaraz</td>
+            <td>21</td>
+            <td>6,910</td>
+            <td>18</td>
+           </tr>
+           <tr style="border-bottom: 2px solid white" data-href="coco-bio.html">
+            <td>3</td>
+            <td>Coco Gauff</td>
+            <td>21</td>
+            <td>6.063</td>
+            <td>21</td>
+           </tr>
+           <tr style="border-bottom: 2px solid white" data-href="taylor-bio.html">
+            <td>4</td>
+            <td>Taylor Fritz</td>
+            <td>27</td>
+            <td>4,900</td>
+            <td>22</td>
+           </tr>
+           <tr data-href="novak-bio.html">
+            <td>5</td>
+            <td>Novak Djokovic</td>
+            <td>37</td>
+            <td>3,860</td>
+            <td>19</td>
+           </tr>
+         </tbody>
+       </table>
+   </main>
+   <footer>
+       <div class="footer-bar">
+           <a href="tel:3059436736" rel="noopener noreferrer" class="telephone">305.943.OPEN</a>
+           <a href="https://www.google.com/maps/place/Miami+Open+Tennis+Stadium/@25.9576456,-80.2394929,17z/data=
+           !3m1!4b1!4m6!3m5!1s0x88d9af5ac7a353c1:0xc984504a4292e6fa!8m2!3d25.9576456!4d-80.2394929!16s%2Fg%2F11h7fyn9q
+           9?hl=en-US&entry=ttu&g_ep=EgoyMDI1MDMxOS4yIKXMDSoASAFQAw%3D%3D" rel="noopener noreferrer"
+              class="directions-link" target="_blank">347 Don Shula Dr, Miami Gardens, FL 33056</a>
+           <b class="copyright">&nbsp;</b>
+           <b class="copyright">© 2025 by Jose. All rights reserved.</b>
+       </div>
+   </footer>
+</body>
+<script src="javascript/main-java.js"></script>
+<script src="javascript/contact-java.js"></script>
+</html>
